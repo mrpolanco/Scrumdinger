@@ -22,6 +22,7 @@ struct MeetingView: View {
                     Text("Seconds Remaining")
                         .font(.caption)
                     Label("600", systemImage: "hourglass.tophalf.filled")
+
                 }
             }
             .accessibilityElement(children: .ignore)
